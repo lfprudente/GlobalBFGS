@@ -2,8 +2,8 @@ This directory contains the Global BFGS algorithm, the  BFGS-Wolfe algorithm and
 
 L. F. Prudente and D. R. Souza, Global convergence of a BFGS-type algorithm for nonconvex multiobjective optimization problems, technical report, 2023.
 
-MOPsolverBFGS.f90: routine containing the Global BFGS and BFGS-Wolfe algorithms
-MOPsolverCautiousBFGS.f90: routine containing the Standard Cautious BFGS-Armijo algorithm
+- MOPsolverBFGS.f90: routine containing the Global BFGS and BFGS-Wolfe algorithms
+- MOPsolverCautiousBFGS.f90: routine containing the Standard Cautious BFGS-Armijo algorithm
 
 This folder also contains the third-party free codes:
 
