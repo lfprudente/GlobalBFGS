@@ -20,24 +20,26 @@ This folder also contains the third-party free codes:
   - These subroutines are used as the inner solver of lsvecopt.f90 which computes a step size satisfying the (vector) Wolfe conditions.
 
 Instructions:
+-------------
 
-File main.f90 contains the main program where you can choose the algorithm to be used. Modify myproblem.f90 routine to solve your own problem. Alternatively, set a test problem in main.f90 routine; see myproblem.f90.
+File main.f90 contains the main program where you can choose the algorithm to be used.
+Modify myproblem.f90 routine to solve your own problem. Alternatively, set a test problem in main.f90 routine; see myproblem.f90.
 
 The codes are written in Fortran 90. Users need to install gfortran.
 
-In the terminal, go to the folder and type:
+1) In the terminal, go to the folder and type:
 
-make
+    make
 
-Run typing:
+2) Run typing:
 
-./MOPsolver
+    ./MOPsolver
 
 and see the output in the screen.
 
-out: outer iteration number
-|theta|: optimality measure
-LS: flag of the line search routine to compute the step size (0 means success)
-IS: flag of the inner solver routine to compute the search direction (0 means success)
-#evalf: number of function evaluations
-#evalg: number of gradient evaluations
+- out: outer iteration number
+- |theta|: optimality measure 
+- LS: flag of the line search routine to compute the step size (0 means success)
+- IS: flag of the inner solver routine to compute the search direction (0 means success)
+- - #evalf: number of function evaluations
+- #evalg: number of gradient evaluations
