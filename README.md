@@ -41,5 +41,5 @@ and see the output in the screen.
 - |theta|: optimality measure 
 - LS: flag of the line search routine to compute the step size (0 means success)
 - IS: flag of the inner solver routine to compute the search direction (0 means success)
-- - #evalf: number of function evaluations
+- #evalf: number of function evaluations
 - #evalg: number of gradient evaluations
