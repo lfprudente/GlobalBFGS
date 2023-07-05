@@ -7,17 +7,17 @@ L. F. Prudente and D. R. Souza, Global convergence of a BFGS-type algorithm for 
 
 This folder also contains the third-party free codes:
 
-software Algencan 3.1.1
+- software Algencan 3.1.1
 
-E. G. Birgin and J. M. Martı́nez, Practical augmented Lagrangian methods for constrained optimization, SIAM, 2014.
-https://www.ime.usp.br/~egbirgin/tango/
-Algencan is used to compute the search directions; see innersolver.f90.
+  - . G. Birgin and J. M. Martı́nez, Practical augmented Lagrangian methods for constrained optimization, SIAM, 2014.
+  - https://www.ime.usp.br/~egbirgin/tango/
+  - Algencan is used to compute the search directions; see innersolver.f90.
 
-subroutines dcsrch and dcstep of Moré and Thuente
+- subroutines dcsrch and dcstep of Moré and Thuente
 
-J. J. Moré and D. J. Thuente, Line Search Algorithms with Guaranteed Sufficient Decrease, ACM Trans. Math. Softw., 20 (1994), pp. 286–307.
-http://ftp.mcs.anl.gov/pub/MINPACK-2/csrch/
-These subroutines are used as the inner solver of lsvecopt.f90 which computes a step size satisfying the (vector) Wolfe conditions.
+  - J. J. Moré and D. J. Thuente, Line Search Algorithms with Guaranteed Sufficient Decrease, ACM Trans. Math. Softw., 20 (1994), pp. 286–307.
+  - http://ftp.mcs.anl.gov/pub/MINPACK-2/csrch/
+  - These subroutines are used as the inner solver of lsvecopt.f90 which computes a step size satisfying the (vector) Wolfe conditions.
 
 Instructions:
 
